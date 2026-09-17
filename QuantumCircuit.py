@@ -35,3 +35,4 @@ print(job.job_id())
 result = job.result()
 
 plot_histogram(result.get_counts())
+#The histogram will show us clearly how often we measured each possible state. For our Bell state, we expect to see roughly equal occurrences of '00' and '11', confirming the entanglement.
